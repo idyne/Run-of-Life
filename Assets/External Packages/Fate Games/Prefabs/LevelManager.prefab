@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &576889031785371690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576889031785371688}
+  - component: {fileID: 6426594854444331286}
+  - component: {fileID: 6055449221612766597}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576889031785371688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6426594854444331286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b86ca0fc2be3614c91db65ce4e3608a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6055449221612766597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6760a084df6b16943b039123e321c162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 0}
+  clockRimColor: {r: 1, g: 0.5512824, b: 0.113000035, a: 1}
+  clockBackColor: {r: 1, g: 0.953524, b: 0.15599996, a: 1}
+  goodPoolColor: {r: 0.40150005, g: 1, b: 0.106000006, a: 1}
+  badPoolColor: {r: 0.62686265, g: 0.13499999, b: 1, a: 1}
+  wallColors:
+  - {r: 0.21960784, g: 1, b: 0.84705883, a: 1}
+  - {r: 0.28240544, g: 1, b: 0.26274514, a: 1}
+  - {r: 0.94549227, g: 1, b: 0.21300006, a: 1}
+  - {r: 1, g: 0.23414734, b: 0.21960783, a: 1}
+  - {r: 0.5930224, g: 0.21960783, b: 1, a: 1}
+  transparentMaterial: {fileID: 2100000, guid: 5aaf3d5d65275594680d297fb9dec8b9, type: 2}
+  clockDestroyEffectPrefab: {fileID: 6286128457293792757, guid: 8bad4859177d2444e81557b4eeb78304, type: 3}
+  checkpointConfettiPrefab: {fileID: 0}
+  finishLine: {fileID: 0}
+  finishCameraPosition: {fileID: 0}
+  progress: {fileID: 0}
+  levelText: {fileID: 0}
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  poolLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  playerMoney: 0

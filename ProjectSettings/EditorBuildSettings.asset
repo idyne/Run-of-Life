@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Run of Life/Scenes/LevelLoader.unity
+    guid: f582b9b1c55730e468ae849091cd74ef
+  - enabled: 1
+    path: Assets/Run of Life/Scenes/Level_1.unity
+    guid: 3cdfa50a547ca734fad25ba36c55ce53
+  - enabled: 1
+    path: Assets/Run of Life/Scenes/Level_1 1.unity
+    guid: 3e8e5522188ff7944a8d7494ff158fbe
+  - enabled: 1
+    path: Assets/Run of Life/Scenes/Level_1 2.unity
+    guid: fe94439049d658f4391c75ee70580fa1
+  - enabled: 1
+    path: Assets/Run of Life/Scenes/Level_1 3.unity
+    guid: 10f3ea4fcba041349821f47922af3ef1
+  m_configObjects: {}
